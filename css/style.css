@@ -1,0 +1,278 @@
+
+
+body{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+strong{
+    font-weight: bold;
+}
+
+
+hr{
+    width: 100%;
+    height: 10px;
+    background-color: #a292b3;
+}
+
+.main {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.menu{
+    width: 60%;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #000;
+    
+}
+
+.menu-link{
+    display: flex;
+    align-items: flex-end;
+}
+.menu-link span:hover{
+    color: #82699d;
+    text-decoration: underline;
+}
+
+.menu-link img{
+    margin:0 10px 2px 0;
+}
+
+a span {
+    font-size: 19px;
+    font-family: "Segoe UI";
+    color: rgb(84, 84, 84);
+    line-height: 1.2;   
+}
+
+.slider{
+    background: url(../img/slider.png) no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    margin: 40px 0 20px 0;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.slider-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #82699d;
+    height: 64px;
+    width: 34px;
+}
+
+.slider-button:hover{
+    background-color: #a292b3;
+    cursor: pointer;
+}
+
+.slider-text{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.slider-text h1{
+    font-size: 117px;
+    font-family: 'Nunito', sans-serif;
+    color: rgba(255, 255, 255, 0.969);
+    line-height: 0.308;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0px 6px 0px rgba(130, 105, 157, 0.75);
+    margin-bottom: 50px; 
+}
+
+.slider-text span{
+    font-size: 31px;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.161;
+    text-align: center;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.45);
+}
+
+.quote{
+    display: flex;
+    width: 90%;
+    font-size: 23px;
+    font-family: "Segoe UI";
+    color: #494848;
+    font-style: italic;
+    line-height: 1.565;
+    text-align: center;     
+}
+
+.quote span{
+    font-weight: bold;
+    color: #82699d;
+}
+
+.quote-hr{
+    width: 98%;
+    height: 1px;
+    background-color: #bfbfbf;
+    margin: 20px 0 20px 0;
+}
+
+.article{
+    width: 85%;
+    display: flex;
+    align-items: center;
+
+}
+
+.article section{
+    margin-left: 40px;
+}
+
+.article h2{
+    font-size: 31px;
+    font-family: "Segoe UI";
+    color: rgb(80, 80, 81);
+    font-weight: bold;
+    line-height: 1.161;
+    margin-bottom: 20px;
+}
+
+.article span{
+    font-size: 15px;
+    font-family: "Segoe UI";
+    color: rgb(131, 131, 131);
+    line-height: 1.867;
+}
+
+section a{
+    display: block;;
+    font-size: 13px;
+    font-family: "Segoe UI";
+    color: rgb(130, 105, 157);
+    font-style: italic;
+    line-height: 2.769;
+    text-align: right;
+    text-decoration: none;
+}
+
+section a span{
+    margin-right: 5px;
+}
+
+section a > span::after{
+    content: url("../img/read-more.png");
+    margin-left: 5px;
+}
+
+.featured{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 23px;
+    font-family: "Segoe UI";
+    color: rgb(0, 0, 0);
+    line-height: 1.565;
+    margin-top: 50px;
+    margin-bottom: 50px;
+      
+}
+
+.featured span {
+    display: flex;
+}
+
+/* .featured span::after{
+    content: "";
+    background-image: url(../img/doted.png);
+    margin-left: 10px;
+} */
+
+.featured div{
+    display: flex;
+    width: 75%;
+}
+
+.featured img{
+    width: 100%; 
+}
+
+.clients{
+    width: 100%;
+    display: flex;
+    background-color: #f5f5f5;
+    border: 1px solid #e4e4e4;
+    margin-bottom: 60px;
+}
+
+.clients label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    padding: 15px 0;
+}
+
+.clients label:not(:last-child){
+    border-right: 1px solid #e4e4e4;
+}
+
+footer {display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 65px;
+    background: url(../img/footer.png);
+}
+
+.contacts {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright {
+    font-size: 15px;
+    font-family: "Segoe UI";
+    color: rgb(69, 66, 66);
+    line-height: 2.4;
+}
+
+.socials{
+    display: flex;
+    min-width: 10%;
+    justify-content: space-between;
+}
+
+hr.footer{
+    background-color: #82699d;
+}
